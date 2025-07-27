@@ -15,11 +15,11 @@ public class Clear {
 
     public static void clear(String message,MessageReceivedEvent event ){
         switch(message){
-            case "ALL":
+            case "tudo":
                 all(event);
                 break;
 
-            case "today":
+            case "hoje":
                 today(event);
                 break;
 
